@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script Exercise</title>
+    <script>
+        function welcome() {
+            let fullName=prompt('Input your full name:');
+            document.write("Welcome "+fullName +"!");
+        }
+        function calSum() {
+            let x=prompt("x = ");
+            x=Number.parseFloat(x);
+            let y=prompt("y = ");
+            y=Number.parseFloat(y);
+            document.write("x + y ="+ (x+y));
+        }
+    </script>
+</head>
+<body onload="alert('The side had been successfully loaded')">
+<button onclick="welcome()">Full name:</button>
+<button onclick="confirm('Do you really want to leave?')">Close</button>
+<button onclick="calSum()">Calculation: Summary</button>
+</body>
+</html>
